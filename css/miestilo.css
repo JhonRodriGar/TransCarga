@@ -1,0 +1,188 @@
+body {
+	background-color: #055E80; /*Cambia el color de fondo*/
+
+}
+
+div.contenedor { /*Ayuda para que los botones queden centrados*/
+  width: 33.33%;
+  background-color: tomato
+}
+
+.producto{
+  max-height: 150px;
+}
+
+.avatar{
+  max-height: 80px;
+  max-width: 80px;
+}
+
+.avatar_grande{
+  max-height: 9000px;
+  max-width: 900px;
+}
+
+.imginicio{
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+
+
+.btn-success {
+	color: #fff;
+	background-color: #009999;
+	border-color: #198754;
+}
+
+.btn-danger { /*Cambia el color del botón nuevo*/
+  color: black; /*Cambia color de letra del botón*/
+  background-color: white; /*Cambia el color de fondo del botón*/
+  border-color: black;
+  width: 220px; /* Cambia ancho del botón*/
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.table-dark { /*Cambia el diseño de la tabla*/
+  --bs-table-bg: white; /*Pone fondo de tabla*/
+  --bs-table-striped-bg: #2c3034;
+  --bs-table-striped-color: #fff;
+  --bs-table-active-bg: #373b3e;
+  --bs-table-active-color: #fff;
+  --bs-table-hover-bg: red;
+  --bs-table-hover-color: #fff;
+  color: black; /*Cambia color de letra*/
+  border-color: red; /*Cambia color de bordes*/
+}
+
+.table-warning1 { /*cambia el color del encabezado de la tabla*/
+  --bs-table-bg: #9F1B1B;
+  --bs-table-striped-bg: #f2e7c3;
+  --bs-table-striped-color: #000;
+  --bs-table-active-bg: #e6dbb9;
+  --bs-table-active-color: #000;
+  --bs-table-hover-bg: gray; /*Cambia color de fondo al pasar el cursor sobre la línea*/
+  --bs-table-hover-color: #000;
+  color: red;
+  border-color: #055E80; /*Color bordes*/
+  text-align: center;
+}
+
+a { /*Cambia color de los íconos y de las palabras en el menú*/
+	color: black;
+  font-weight: bold;
+}
+
+h1 { /*Cambia el diseño del título de la tabla*/
+	background-color: ;
+	margin-top: 10px; /*Separación de la parte superior*/
+	text-align: center; /*Centra el contenido*/
+  color: #087903; /*Cambia color de fuente*/
+  font-family: Brush Script MT; /*Cambia tipo de fuente*/
+  font-size: 90px; /*Aumenta tamaño de fuente*/
+  font-weight: bold; /*pone negrilla*/
+}
+
+h2 { /*Cambia el diseño del título de la tabla*/
+  background-color: ;
+  margin-top: 5px; /*Separación de la parte superior*/
+  text-align: center; /*Centra el contenido*/
+  color: #087903; /*Cambia color de fuente*/
+  font-family: arial; /*Cambia tipo de fuente*/
+  font-size: 30px; /*Aumenta tamaño de fuente*/
+  font-weight: bold; /*pone negrilla*/
+}
+
+h3 { /*Cambia el diseño del título de la tabla*/
+  background-color: ;
+  margin-top: 5px; /*Separación de la parte superior*/
+  text-align: center; /*Centra el contenido*/
+  color: black; /*Cambia color de fuente*/
+  font-family: arial; /*Cambia tipo de fuente*/
+  font-size: 20px; /*Aumenta tamaño de fuente*/
+  font-weight: bold; /*pone negrilla*/
+}
+
+i {
+	text-align: center;
+	align-content: center;
+  color: #055E80;
+  margin-right: 10px;
+}
+
+input{
+	border-color: red;
+}
+
+.form-text { /*Diseño del texto en la parte inferior del formulario*/
+  margin-top: 0.25rem;
+  font-size: 0.875em; /*Tamaño de texto*/
+  color: black;
+}
+
+.form-label { /*Cambia el diseño de los enunciados de los campos del formulario*/
+  margin-bottom: 0.1rem;
+  color: black;
+  font-size: 1.5em;
+}
+
+.form-control { /*Cambia diseño del formulario*/
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #055E80; /*Cambia color de borde de los campos del formulario*/
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+
+.form-select { /*Cambia diseño de los campos de selección del formulario*/
+  display: block;
+  width: 100%;
+   padding: 0.375rem 0.75rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  border: 1px solid #055E80; /*Cambia color de borde de los campos del formulario*/
+  border-radius: 0.25rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+
+.nav-tabs {
+  border-bottom: 3px solid #055E80; /*Pone linea en la parte inferior del menú*/
+}
+.nav-tabs .nav-link {
+  margin-bottom: -1px;
+  background: #d1e7dd; /*Cambia el color de los botones del menú*/
+  border: 1px solid #087903; /*Cambia el color de los bordes de los botones del menú*/
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  margin-top: ; /*Separa el menú de la parte superior*/
+  width: 150px;
+  text-align: center;
+}
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+  border-color: white white white; /*Cambia los bordes de los botenes al pasar el cursos 1 arriba 2 a los lados 3 abajo*/
+  isolation: isolate;
+}
+
